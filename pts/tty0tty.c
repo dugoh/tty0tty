@@ -184,10 +184,10 @@ int main(int argc, char* argv[])
       fprintf(stderr, "Cannot create: %s\n", argv[2]);
       return 1;
     }
-    printf("(%s) <=> (%s)\n",argv[1],argv[2]);
+    printf("%s %s\n",argv[1],argv[2]);
   }
   else {
-    printf("(%s) <=> (%s)\n",slave1,slave2);
+    printf("%s %s\n",slave1,slave2);
   }
 
   conf_ser(fd1);
