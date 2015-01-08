@@ -13,7 +13,7 @@ pts (unix98):
 
   When run connect two pseudo-ttys and show the connection names:
 
-  (/dev/pts/1) <=> (/dev/pts/2) 
+  /dev/pts/1 /dev/pts/2 
 
   the connection is:
   
